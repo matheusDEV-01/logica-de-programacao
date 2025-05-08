@@ -30,16 +30,16 @@ void loop()
   Serial.println();
   
   if (media == 10 && frequencia == 100){
-    Serial.print("Sua frequencia foi: " + String(frequencia) );
+    Serial.print("frequencia foi: " + String(frequencia) );
     Serial.println("%");
-    Serial.println("Sua media foi: " + String(media) );
-    Serial.println("Voce foi aprovado!");
-    Serial.println("Parabens!! nota e frequencia MAXIMA!!!");
-  } else if (media >= 6 && frequencia >= 75){
-    Serial.print("Sua frequencia foi: " + String(frequencia) );
-    Serial.println("%");
-    Serial.println("Sua media foi: " + String(media) );
+    Serial.println( media foi: " + String(media) );
     Serial.println("foi aprovado!");
+    Serial.println("Parabens! Nota maxima");
+  } else if (media >= 6 && frequencia >= 75){
+    Serial.print("frequencia foi: " + String(frequencia) );
+    Serial.println("%");
+    Serial.println("media foi: " + String(media) );
+    Serial.println("aprovado!");
   }
   
 }
